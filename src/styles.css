@@ -1,0 +1,48 @@
+:root{
+    --background: #264653;
+    --primary: #2A9D8F;
+    --secondary: #E9C46A;
+    --tertiary: #F4A261;
+    --accent: #E76F51;
+    --dark-background:#192d35;
+}
+
+html{
+    background-color: var(--background);
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    overflow-y: scroll;
+}
+
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: auto;
+    border-bottom: 2px solid var(--dark-background);
+    position: absolute;
+}
+
+.links{
+    padding: 0px 40px 0px 0px;
+    width: 33vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.socials{
+    width: 16vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
