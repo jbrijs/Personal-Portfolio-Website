@@ -11,12 +11,12 @@ html{
     background-color: var(--background);
     color:white;
     font-family: 'Raleway', sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
 
-html, body{
+body{
     overflow-y: scroll;
+    padding: none;
+    margin: none;
 }
 
 .navbar{
@@ -24,25 +24,21 @@ html, body{
     margin: 0px;
     display:flex;
     justify-content: space-between;
-    width: 100vw;
     height: auto;
     border-bottom: 2px solid var(--dark-background);
-    position: absolute;
 }
 
 .links{
     padding: 0px 40px 0px 0px;
-    width: 33vw;
+    gap: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     list-style-type: none;
 }
 
 .socials{
-    width: 16vw;
+    gap:40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     list-style-type: none;
 }
