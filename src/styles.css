@@ -15,17 +15,20 @@ html{
 
 body{
     overflow-y: scroll;
-    padding: none;
-    margin: none;
+    padding: 50px, 0px, 0px, 0px;
+    margin: 0px;
+
 }
 
 .navbar{
-    padding: 0px;
+    background-color: var(--dark-background);
+    width: 100vw;
+    /* padding: 4px; */
     margin: 0px;
     display:flex;
     justify-content: space-between;
-    height: auto;
-    border-bottom: 2px solid var(--dark-background);
+    height: 50px;
+    /* border-bottom: 2px solid var(--dark-background); */
 }
 
 .links{
