@@ -15,12 +15,15 @@ html{
 
 body{
     overflow-y: scroll;
-    padding: 50px, 0px, 0px, 0px;
+    padding-top: 50px;
     margin: 0px;
 
 }
 
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: var(--dark-background);
     width: 100vw;
     /* padding: 4px; */
@@ -29,6 +32,11 @@ body{
     justify-content: space-between;
     height: 50px;
     /* border-bottom: 2px solid var(--dark-background); */
+    transition: transform 0.3s ease;
+}
+
+.navbar[data-hidden="true"]{
+    transform: translateY(-50px);
 }
 
 .links{
