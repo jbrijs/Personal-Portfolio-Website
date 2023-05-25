@@ -57,7 +57,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 40px;
-    color: var(--secondary);
+    color: var(--tertiary)
 }
 
 
@@ -87,6 +87,11 @@ body{
     height: 20px;
     background-color: white;
 
+}
+
+a.tab-tags{
+    text-decoration: none;
+    color: white;
 }
 
 .subheader{
