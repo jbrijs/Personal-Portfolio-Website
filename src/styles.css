@@ -40,7 +40,7 @@ body{
 }
 
 .navbar[data-hidden="true"]{
-    transform: translateY(-50px);
+    transform: translateY(calc(-1 * var(--nav-bar-height)));
 }
 
 .links{
@@ -60,13 +60,17 @@ body{
     color: var(--tertiary)
 }
 
+.page{
+    height: 100vh;
+    margin: 0;
+}
 
-
-.home {
-    padding: 250px 20px 0px;
+#home {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
   }
     
 
@@ -98,4 +102,21 @@ a.tab-tags{
     display: flex;
     gap: 16px;
     align-items: center;
+}
+
+
+#about{
+    background-color: var(--primary);
+}
+
+#skills{
+    background-color: var(--secondary);
+}
+
+#projects{
+    background-color: var(--tertiary);
+}
+
+#contact{
+    background-color: rgb(40, 40, 40);
 }
