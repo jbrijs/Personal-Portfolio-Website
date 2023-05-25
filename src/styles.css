@@ -1,10 +1,19 @@
+
+ /* old colors:
+ 
+ --primary: #2A9D8F;
+    --secondary: #E9C46A; 
+ --accent: #E76F51; 
+ --dark-background:#192d35; */
+
 :root{
     --background: #264653;
-    --primary: #2A9D8F;
-    --secondary: #E9C46A;
+    --primary: #9DBEBB;
+    --secondary:#77aca2;
+    --accent: #ba3b46;
+   
     --tertiary: #F4A261;
-    --accent: #E76F51;
-    --dark-background:#192d35;
+    
     --nav-bar-height: 75px;
     --raleway: 'Raleway', sans-serif;
     --kaushaun: 'Kaushan Script', cursive;
@@ -70,7 +79,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
+   
   }
     
 
