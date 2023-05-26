@@ -14,18 +14,40 @@ window.addEventListener("scroll", ()=> {
 
 const numCourses = 5;
 
-for (i=0; i < numCourses; i++){
-    let course = document.getElementById("course-" + i);
-    course.addEventListener("click", (e)=>{
-        let id = course.id
-        for (i=0; i < numCourses;i++){
-            let checkElement = document.getElementById("course-" + i);
-            if (id != checkElement.id){
-                checkElement.dataset.hidden = "true";
-            
-            }
-        }
-        
-        // course.dataset.hidden = "true";
-    })
+
+
+const courses = document.querySelectorAll(".courses");
+
+courses.forEach((course) => {
+  course.addEventListener("click", handleClick);
+});
+
+function handleClick(event) {
+  const selectedCourse = event.currentTarget;
+  const selectedId = selectedCourse.id;
+
+  courses.forEach((course) => {
+    if (course.id !== selectedId) {
+      course.dataset.hidden = "true";
+    } else {
+      course.dataset.flipped = "true";
+      course.removeEventListener("click", handleClick);
+
+      course.addEventListener("click", handleReset);
+    }
+  });
 }
+
+function handleReset(event) {
+  const resetCourse = event.currentTarget;
+
+  courses.forEach((course) => {
+    course.dataset.hidden = "false";
+  });
+
+  resetCourse.dataset.flipped = "false";
+  resetCourse.removeEventListener("click", handleReset);
+  resetCourse.addEventListener("click", handleClick);
+}
+
+  
