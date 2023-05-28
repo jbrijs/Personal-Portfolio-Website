@@ -217,10 +217,10 @@ a.tab-tags{
 
 #contact{
     background-color: rgb(40, 40, 40);
+    height: 50vh;
 }
 
 .header{
-    
     padding: 0px 50px 0px;
     font-size: 2em;
     margin: 0px;
