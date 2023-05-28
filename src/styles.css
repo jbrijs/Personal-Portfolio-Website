@@ -152,27 +152,29 @@ a.tab-tags{
 }
 
 .tech{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  
 }
 
 .techs{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
     background-color: var(--background);
     width: 250px;
     height: 100px;
-    border-radius: 32px;
+    border-radius: 8px;
 
 }
 
 .coursework{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+
 }
 
 .courses{
