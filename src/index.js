@@ -1,3 +1,4 @@
+
 // Navbar is hidden when scrolling down, visible when scrolling up
 const navbar = document.querySelector('.navbar');
 let lastScrollY = window.scrollY;
@@ -12,10 +13,8 @@ window.addEventListener("scroll", ()=> {
     lastScrollY = window.scrollY;
 })
 
+// Event listeners for courses
 const numCourses = 5;
-
-
-
 const courses = document.querySelectorAll(".courses");
 
 courses.forEach((course) => {
@@ -49,5 +48,3 @@ function handleReset(event) {
   resetCourse.removeEventListener("click", handleReset);
   resetCourse.addEventListener("click", handleClick);
 }
-
-  

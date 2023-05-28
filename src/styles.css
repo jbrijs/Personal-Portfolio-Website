@@ -169,9 +169,8 @@ a.tab-tags{
 }
 
 .coursework{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -187,9 +186,9 @@ a.tab-tags{
     background-color: var(--background);
     width: 260px;
     height: 100px;
-    border-radius: 64px;
+    border-radius: 8px;
     box-shadow: 0px 2px 2px 2px rgba(0,0,0,.2);
-    transition: all .3s ease;
+    transition: all ease .3s
 }
 
 .courses:hover{
@@ -201,7 +200,13 @@ a.tab-tags{
 }
 
 .courses[data-hidden="true"]{
-    display: none;
+    visibility: hidden;
+
+}
+
+.courses[data-flipped="true"]{
+    width: 75vw;
+    height: 50vh;
 }
 
 #projects{
