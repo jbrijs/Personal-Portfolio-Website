@@ -19,6 +19,9 @@ const courses = document.querySelectorAll(".courses");
 
 courses.forEach((course) => {
   course.addEventListener("click", handleClick);
+  course.addEventListener("hover", ()=>{
+    document.getElementById
+  })
 });
 
 function handleClick(event) {
@@ -48,3 +51,4 @@ function handleReset(event) {
   resetCourse.removeEventListener("click", handleReset);
   resetCourse.addEventListener("click", handleClick);
 }
+

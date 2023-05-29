@@ -6,14 +6,13 @@
  --accent: #E76F51; 
  --dark-background:#192d35; */
 
+ /* General */
 :root{
     --background: #264653;
     --primary: #9DBEBB;
     --secondary:#77aca2;
     --accent: #ba3b46;
-   
     --tertiary: #F4A261;
-    
     --nav-bar-height: 75px;
     --raleway: 'Raleway', sans-serif;
     --kaushaun: 'Kaushan Script', cursive;
@@ -35,6 +34,18 @@ body{
 
 }
 
+.header{
+    padding: 0px 50px 0px;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.page{
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navbar */
 .navbar{
     position: fixed;
     top: 0;
@@ -72,11 +83,7 @@ body{
     color: var(--tertiary)
 }
 
-.page{
-    height: 100vh;
-    margin: 0;
-}
-
+/* Home Page */
 #home {
     display: flex;
     flex-direction: column;
@@ -116,7 +123,7 @@ a.tab-tags{
     align-items: center;
 }
 
-
+/* About Page */
 #about{
     background-color: var(--primary);
     display: flex;
@@ -144,6 +151,7 @@ a.tab-tags{
     z-index: 1;
 }
 
+/* Skills Page */
 #skills{
     background-color: var(--secondary);
     color: black;
@@ -223,35 +231,31 @@ a.tab-tags{
     margin: 0px;
 }
 
+.click{
+    display: none;
+}
+
+span.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    font-size: .7em;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+    
+}
+
+
+/* Projects Page */
 #projects{
     background-color: var(--tertiary);
 }
 
+/* Contact Page*/
 #contact{
     background-color: rgb(40, 40, 40);
     height: 50vh;
 }
-
-.header{
-    padding: 0px 50px 0px;
-    font-size: 2em;
-    margin: 0px;
-}
-
-
-span.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-  font-size: .7em;
-  position: absolute;
-  bottom: 8px;
-  right: 4px;
-  
-}
-
-
-
-
