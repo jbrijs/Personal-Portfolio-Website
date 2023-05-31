@@ -127,29 +127,43 @@ a.tab-tags{
 #about{
     background-color: var(--primary);
     display: flex;
-    justify-content: flex-end;
-}
-
-.about-info{
-    line-height: 2;
-    padding: 50px;
-    font-size: 2em;
-    margin: 0px;
+    align-items: center;
+    height: 50vh;
+    gap: 100px;
 }
 
 .info-background{
     color: black;
     border-radius: 64px;
-    margin: 20px;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 60vh;
-    top: 75px;
-    position: relative;
-    z-index: 1;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
 }
+
+#about .header{
+    font-size: 1em;
+    padding: 0px 0px 10px; 
+}
+.about-info{
+    line-height: 2;
+    padding: 10px 100px 0px 0px;
+    font-size: 1em;
+    margin: 0px;
+}
+
+.profile-pic-container{
+    padding-left: 80px;
+}
+
+.profile-pic-container img{
+    width: 175px;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 /* Skills Page */
 #skills{
