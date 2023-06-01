@@ -171,18 +171,58 @@ a.tab-tags{
     padding: 8px 0px;
     border-bottom: solid 2px var(--tertiary);
     width: fit-content;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .techs{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-    justify-content: center;
+    grid-row-gap: 40px;
+    justify-items: center;
+    padding: 50px 0px;
 }
 
-.techs p{
+.techs div {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 125px;
 }
+
+#html{
+    background-color: rgba(228,77,39, .6);
+}
+
+#javascript{
+    background-color:rgba(239,219,79, .6)
+}
+
+#java{
+    background-color: rgba(83,130,161, .6)
+}
+
+#python{
+    background-color: rgba(255,216,74, .4)
+}
+
+#css{
+    background-color: rgba(38,77,227, .6);
+}
+
+#git{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tech-images{
+    width: 80px;
+    height: auto;
+}
+
+
 
 /* Projects Page */
 #projects{
