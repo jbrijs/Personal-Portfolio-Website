@@ -189,8 +189,17 @@ a.tab-tags{
     justify-content: center;
     width: 150px;
     height: 150px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
     border-radius: 125px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease;
+}
+
+.techs div:hover{
+    width: 175px;
+    height: 175px;
+    cursor: pointer;
+
+
 }
 
 #html{
