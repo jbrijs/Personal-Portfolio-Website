@@ -35,7 +35,7 @@ body{
 }
 
 .page{
-    height: 100vh;
+    height: auto;
     margin: 0;
 }
 
@@ -79,6 +79,7 @@ body{
 
 /* Home Page */
 #home {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +120,8 @@ a.tab-tags{
     background-color: var(--primary);
     display: flex;
     align-items: center;
-    height: 50vh;
+    /* height: 50vh; */
+    padding: 50px;
     gap: 100px;
 }
 
@@ -162,16 +164,18 @@ a.tab-tags{
     color: black;
     display: flex;
     flex-direction: column;
-    height: 150vh;
-    padding: 40px;
+    height: auto;
+    padding: 40px 40px 0px;
 }
 
-#skills .header{
+.underline-header{
     font-weight: 500;
-    padding: 8px 0px;
-    border-bottom: solid 2px var(--tertiary);
-    width: fit-content;
+    padding: 20px 0px 8px;
+    margin: 0px;
     color: rgba(0, 0, 0, 0.7);
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-color: var(--tertiary);
 }
 
 .techs{
@@ -179,7 +183,7 @@ a.tab-tags{
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
     grid-row-gap: 40px;
     justify-items: center;
-    padding: 50px 0px;
+    padding: 40px 0px 60px;
     border-bottom: solid 2px rgba(0, 0, 0, .2);
 }
 
@@ -225,7 +229,7 @@ a.tab-tags{
 }
 
 .flip-card-back {
-    background-color: var(--tertiary);
+    background-color: var(--primary);
     color: black;
     transform: rotateY(180deg);
 }
@@ -269,77 +273,45 @@ a.tab-tags{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
-
-.courses{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    grid-row-gap: 40px;
-    justify-items: center;
-    padding-top: 40px;
-}
-
-.course-flip-card{
-    background-color: transparent;
-    width: 300px;
-    height: 150px;
-    border-radius: 8px;
-    perspective: 1000px;
-    
-}
-
-.course-flip-card-inner{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.course-flip-card:hover .course-flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.course-flip-card-front, .course-flip-card-back {
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 8px;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    background-color: var(--background);
-    color: white;
-}
-
-.course-flip-card-back {
-    background-color: var(--tertiary);
-    transform: rotateY(180deg);
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.course-flip-card-info{
-    font-size: .75em;
-    padding: 5px 15px;
-    text-align: left;
+/* Education */
+#education{
+    background-color: whitesmoke;
+    height: fit-content;
     margin: 0px;
+    padding: 40px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
+#education-header{
+    padding-top: 0px;
+}
 
+.university{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 200px;
+}
 
+.university p{
+    margin: 0px;
+    padding: 0px;
+}
 
+#usu{
+    font-style: italic;
+    font-weight: 500;
+}
 
+#degree{
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
 /* Projects Page */
 #projects{
     background-color: var(--primary);
+    height: 100vh;
 }
 
 /* Contact Page*/
