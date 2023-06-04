@@ -295,12 +295,24 @@ a.tab-tags{
 
 .university p{
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 75px;
 }
 
 #usu{
     font-style: italic;
     font-weight: 500;
+}
+
+.relevant-cw{
+    display: flex;
+    flex-direction: row;
+    gap: 84.27px;
+    align-items: flex-start;
+}
+
+.relevant-cw p{
+    font-size: 18px;
+    margin-top: 0px;
 }
 
 #degree{
