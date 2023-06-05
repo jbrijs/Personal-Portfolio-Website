@@ -303,6 +303,13 @@ a.tab-tags{
     font-weight: 500;
 }
 
+.relevant-cw{
+    display: flex;
+    flex-direction: row;
+    gap: 84px;
+    position: relative;
+ }
+
 .relevant-cw p{
     font-size: 18px;
     margin-top: 0px;
@@ -312,11 +319,12 @@ a.tab-tags{
     font-size: 1.5em;
     font-weight: 500;
     padding-bottom: 8px;
+   
 }
 
 .courses{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    padding-top: 8px;
+    font-style: italic;
 }
 /* Projects Page */
 #projects{
