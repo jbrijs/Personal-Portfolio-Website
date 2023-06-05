@@ -115,6 +115,47 @@ a.tab-tags{
     align-items: center;
 }
 
+
+
+.socials{
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-link img{
+    width: 40px;
+    height: auto;
+}
+
+.social-link:hover{
+    cursor: pointer;
+}
+
+#resume-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 160px;
+    height: 40px;
+    border-radius: 32px;
+    border: none;
+    background-color: white;
+    color: #264653;
+    font-size: 16px;
+    transition: all .3s ease;
+    font-weight: 500;
+    font-family: var(--inter);
+}
+
+#resume-download:hover{
+    color: black;
+    cursor: pointer;
+}
+
 /* About Page */
 #about{
     background-color: var(--primary);
