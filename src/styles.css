@@ -295,15 +295,15 @@ a.tab-tags{
 }
 
 #javascript{
-    background-color:rgba(239,219,79, .6)
+    background-color:rgba(239,219,79, .6);
 }
 
 #java{
-    background-color: rgba(83,130,161, .6)
+    background-color: rgba(83,130,161, .6);
 }
 
 #python{
-    background-color: rgba(255,216,74, .4)
+    background-color: rgba(255,216,74, .4);
 }
 
 #css{
@@ -312,6 +312,8 @@ a.tab-tags{
 
 #git{
     background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+   
 }
 
 /* Education */
