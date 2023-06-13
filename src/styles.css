@@ -414,7 +414,21 @@ a.tab-tags:hover{
 
 /* Contact Page*/
 #contact{
-    /* background-color: rgb(40, 40, 40); */
+    padding: 50px;
     background: var(--background);
-    height: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+}
+
+#contact .links{
+    padding: 0px;
+}
+
+#contact .socials{
+    padding: 0px;
 }
