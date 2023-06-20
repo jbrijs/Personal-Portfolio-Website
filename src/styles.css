@@ -171,7 +171,6 @@ a.tab-tags:hover{
     background-color: var(--primary);
     display: flex;
     align-items: center;
-    /* height: 50vh; */
     padding: 50px;
     gap: 100px;
 }
@@ -189,6 +188,7 @@ a.tab-tags:hover{
 
 #about .header{
     padding: 0px; 
+    font-weight: 500;
 }
 
 .about-info{
@@ -360,6 +360,8 @@ a.tab-tags:hover{
     flex-direction: row;
     gap: 84px;
     position: relative;
+    padding-bottom: 80px;
+    border-bottom: solid 2px rgba(0, 0, 0, .2);
  }
 
 .relevant-cw p{
@@ -380,7 +382,7 @@ a.tab-tags:hover{
 }
 /* Projects Page */
 #projects{
-    background-color: var(--primary);
+    background-color: whitesmoke;
     height: auto;
     padding: 40px;
 }
@@ -389,6 +391,7 @@ a.tab-tags:hover{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     row-gap: 40px;
+    padding-bottom: 40px;
 }
 
 .project{
@@ -396,12 +399,11 @@ a.tab-tags:hover{
     justify-content: center;
     align-items: center;
     color: white;
-    background: rgba(0, 0, 0, 0.7);
+    background-color: var(--background);
     width: 300px;
-    height: 300px;
+    height: 200px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
-  
     transition: background-color 1s ease;
     transition: all 1s ease;
 }
@@ -412,6 +414,14 @@ a.tab-tags:hover{
     background: linear-gradient(to top right, var(--background), var(--primary));
 }
 
+#projects .header{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    padding: 0px 0px 40px;
+    text-decoration-color: var(--tertiary);
+}
 /* Contact Page*/
 #contact{
     padding: 50px;
