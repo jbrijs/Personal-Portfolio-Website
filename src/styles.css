@@ -425,6 +425,15 @@ a.tab-tags:hover{
     gap: 80px;
 }
 
+.email{
+    font-size: 18pt;
+    margin: 0px 0px 8px;
+}
+
+#reach{
+    font-size: 16pt;
+}
+
 #contact .links{
     padding: 0px;
 }
