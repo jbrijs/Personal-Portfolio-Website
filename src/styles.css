@@ -336,6 +336,7 @@ a.tab-tags:hover{
 
 #education-header{
     padding-top: 0px;
+    text-wrap: nowrap;
 }
 
 .university{
@@ -365,7 +366,6 @@ a.tab-tags:hover{
  }
 
 .relevant-cw p{
-    font-size: 18px;
     margin-top: 0px;
 }
 
@@ -377,8 +377,17 @@ a.tab-tags:hover{
 }
 
 .courses{
-    padding-top: 8px;
+    padding: 20px 40px 0px 0px;
+}
+
+.course{
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+.course-description{
     font-style: italic;
+    padding-bottom: 40px;
 }
 /* Projects Page */
 #projects{
