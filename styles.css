@@ -160,6 +160,7 @@ a.tab-tags:hover{
     transition: all .3s ease;
     font-weight: 500;
     font-family: var(--inter);
+    text-decoration: none;
 }
 
 #resume-download:hover{
@@ -447,6 +448,8 @@ a.tab-tags:hover{
 .email{
     font-size: 18pt;
     margin: 0px 0px 8px;
+    text-decoration: none;
+    color: white;
 }
 
 #reach{
