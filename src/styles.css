@@ -167,6 +167,57 @@ a.tab-tags:hover{
     cursor: pointer;
 }
 
+/* Mobile Styles */
+
+@media (max-width: 768px) {
+    #home {
+      height: 100vh; /* Take up the whole mobile screen */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px; /* Add some padding for better spacing */
+    }
+  
+    .name {
+      font-size: 5em; /* Decrease font size for mobile */
+      text-align: center; /* Center the name on mobile */
+      margin-bottom: 10px; /* Add spacing between name and subheader */
+    }
+  
+    .info {
+      font-size: 1.2em; /* Decrease font size for mobile */
+      text-align: center; /* Center the info text on mobile */
+    }
+  
+    .subheader {
+      flex-direction: column; /* Stack the subheader items vertically */
+      gap: 10px; /* Reduce the gap between subheader items */
+      margin-bottom: 20px; /* Add some spacing between subheader and socials */
+    }
+  
+    .vertical-line {
+      display: none; /* Hide the vertical line on mobile */
+    }
+  
+    .socials {
+      flex-direction: column; /* Display social links in a row */
+      gap: 20px; /* Adjust the gap between social links */
+      justify-content: center; /* Center the social links horizontally */
+    }
+  
+    .social-link img{
+        width: 60px;
+    }
+
+    #resume-download{
+        height: 60px;
+        width: 180px;
+    }
+  }
+  
+  
+
 /* About Page */
 #about{
     background-color: var(--primary);
