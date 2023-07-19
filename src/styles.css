@@ -42,6 +42,7 @@ body{
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
     width: 100vw;
     margin: 0px;
+    padding: 0px;
     display:flex;
     justify-content: space-between;
     height: var(--nav-bar-height);
@@ -101,15 +102,19 @@ a.tab-tags:hover{
   
   /* Media query to show/hide elements on mobile view */
   @media (max-width: 768px) {
+
     .navbar{
-        position: fixed;
+        display: flex;
+        justify-content: flex-end;
     }
+
     .signature {
       display: none; /* Hide the signature on mobile view */
     }
   
     .hamburger-icon {
-      display: block; /* Show the hamburger icon on mobile view */
+      display: block;
+      padding: 20px;
     }
   
     .links {
@@ -124,12 +129,14 @@ a.tab-tags:hover{
   
     .links.active {
       display: flex; /* Show the links when active class is added */
+      justify-content: space-evenly;
+      padding: 20px 0px;
+      margin: 0px;
     }
   
     /* Adjust the appearance of the links in mobile view */
     .tab-tags {
       text-align: center;
-      padding: 10px;
       color: white;
       background-color: var(--background);
       text-decoration: none;
