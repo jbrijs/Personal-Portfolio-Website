@@ -1,10 +1,4 @@
 
- /* old colors:
- 
- --primary: #2A9D8F;
-    --secondary: #E9C46A; 
- --accent: #E76F51; 
- --dark-background:#192d35; */
 
  /* General */
 :root{
@@ -90,6 +84,64 @@ a.tab-tags:hover{
     padding-left: 40px;
     color: var(--tertiary)
 }
+
+/* CSS for the hamburger icon */
+.hamburger-icon {
+    display: none; /* Hide the icon on desktop view */
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--tertiary);
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  /* Media query to show/hide elements on mobile view */
+  @media (max-width: 768px) {
+    .navbar{
+        position: fixed;
+    }
+    .signature {
+      display: none; /* Hide the signature on mobile view */
+    }
+  
+    .hamburger-icon {
+      display: block; /* Show the hamburger icon on mobile view */
+    }
+  
+    .links {
+      display: none; /* Hide the links by default on mobile view */
+      flex-direction: column;
+      background-color: var(--background); /* Adjust background color to match NavBar */
+      position: absolute;
+      top: var(--nav-bar-height); /* Position the links below the NavBar */
+      width: 100vw;
+      box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+  
+    .links.active {
+      display: flex; /* Show the links when active class is added */
+    }
+  
+    /* Adjust the appearance of the links in mobile view */
+    .tab-tags {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      background-color: var(--background);
+      text-decoration: none;
+    }
+  
+    /* Adjust the appearance of the links when hovered in mobile view */
+    .tab-tags:hover {
+      background-color: var(--accent);
+    }
+  }
+  
+  
 
 /* Home Page */
 #home {
