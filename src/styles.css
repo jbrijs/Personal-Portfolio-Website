@@ -124,7 +124,7 @@ a.tab-tags:hover{
       position: absolute;
       top: var(--nav-bar-height); /* Position the links below the NavBar */
       width: 100vw;
-      box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.2);
     }
   
     .links.active {
@@ -239,13 +239,13 @@ a.tab-tags:hover{
     }
   
     .name {
-      font-size: 5em; /* Decrease font size for mobile */
+      font-size: 4em; /* Decrease font size for mobile */
       text-align: center; /* Center the name on mobile */
       margin-bottom: 10px; /* Add spacing between name and subheader */
     }
   
     .info {
-      font-size: 1.2em; /* Decrease font size for mobile */
+      font-size: 1em; /* Decrease font size for mobile */
       text-align: center; /* Center the info text on mobile */
     }
   
@@ -264,14 +264,14 @@ a.tab-tags:hover{
       gap: 20px; /* Adjust the gap between social links */
       justify-content: center; /* Center the social links horizontally */
     }
-  
+
     .social-link img{
-        width: 60px;
+        width: 50px;
     }
 
     #resume-download{
-        height: 60px;
-        width: 180px;
+        height: 50px;
+        width: 150px;
     }
   }
   
