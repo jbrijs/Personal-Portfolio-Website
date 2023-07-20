@@ -319,6 +319,37 @@ a.tab-tags:hover{
     border-radius: 8px;
 }
 
+@media (max-width: 768px) {
+
+    #about{
+        display: block;
+        padding: 0px;
+    }
+    #about .header{
+        padding: 40px 20px 0px;
+        margin: 0px;
+    }
+    .info-background {
+      border-radius: 0; /* Remove border radius on mobile */
+      display: block;
+    }
+  
+    .about-info {
+      padding: 20px; /* Adjust padding for mobile view */
+    }
+  
+    /* Additional adjustments for smaller screens */
+    .profile-pic-container img {
+      width: 150px; /* Decrease image size for mobile view */
+    }
+  
+    .profile-pic-container {
+      float: right;
+      margin: 40px 20px 0px;
+      padding: 0px;
+   }
+  }
+
 
 /* Skills Page */
 #skills{
