@@ -445,6 +445,7 @@ a.tab-tags:hover{
     .underline-header{
         font-size: 1.25em;
         text-align: center;
+        text-underline-offset: 8px;
     }
     .techs {
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust column width for smaller screens */
@@ -518,12 +519,13 @@ a.tab-tags:hover{
     gap: 200px;
 }
 
-.university p{
+#gpa{
     margin: 0px;
     padding: 0px 0px 75px;
 }
 
 #usu{
+    margin: 0px;
     font-style: italic;
     font-weight: 500;
 }
@@ -542,7 +544,8 @@ a.tab-tags:hover{
 }
 
 #degree{
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 1.25em;
     font-weight: 500;
     padding-bottom: 8px;
    
@@ -561,6 +564,50 @@ a.tab-tags:hover{
     font-style: italic;
     padding-bottom: 40px;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .university {
+        display: block;
+    }
+
+    #education-header{
+        font-size: 1.25em;
+        padding-bottom: 30px;
+        text-underline-offset: 8px;
+        text-align: center;
+    }
+
+    #usu{
+        text-align: center;
+    }
+
+    #gpa{
+        text-align: center;
+    }
+
+    .relevant-cw{
+        display: block;
+        text-align: center;
+    }
+  
+    .courses {
+      padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+  
+    .course {
+      font-size: 12pt; /* Decrease font size for smaller screens */
+      font-weight: 600;
+      padding-bottom: 15px;
+    }
+  
+    .course-description {
+      padding-bottom: 10px; /* Reduce padding for smaller screens */
+    }
+
+    
+  }
+
 /* Projects Page */
 #projects{
     background-color: whitesmoke;
