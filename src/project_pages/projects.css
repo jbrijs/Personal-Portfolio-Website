@@ -1,0 +1,47 @@
+
+:root {
+    --background: #264653;
+    --primary: #9dbebb;
+    --secondary: #77aca2;
+    --accent: #ba3b46;
+    --tertiary: #f4a261;
+    --nav-bar-height: 75px;
+    --nothing-you-could-do: "Nothing You Could Do", cursive;
+    --inter: "Inter", sans-serif;
+  }
+
+
+body {
+    overflow-y: scroll;
+    padding-top: var(--nav-bar-height);
+    margin: 0px;
+    position: relative;
+    font-family: var(--inter);
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    height: var(--nav-bar-height);
+    transition: transform 0.3s ease;
+    z-index: 6;
+  }
+
+  .project-info{
+    height: 100vh;
+    padding: 50px 100px;
+  }
+
+#back-arrow{
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}

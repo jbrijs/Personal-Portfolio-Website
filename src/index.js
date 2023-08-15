@@ -1,31 +1,30 @@
-const navbar = document.querySelector('.navbar');
-const hamburgerIcon = document.querySelector('.hamburger-icon');
-const links = document.querySelector('.links');
+const navbar = document.querySelector(".navbar");
+const hamburgerIcon = document.querySelector(".hamburger-icon");
+const links = document.querySelector(".links");
 
 // Event listener for hamburger icon click
-hamburgerIcon.addEventListener('click', () => {
-  links.classList.toggle('active');
+hamburgerIcon.addEventListener("click", () => {
+  links.classList.toggle("active");
 });
 
 // Event listener for links click (to hide the links when a link is clicked)
-links.addEventListener('click', () => {
-  links.classList.remove('active');
+links.addEventListener("click", () => {
+  links.classList.remove("active");
 });
 
 // Event listener for scrolling (for desktop view)
 let lastScrollY = window.scrollY;
 
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   if (window.innerWidth >= 768) {
     if (lastScrollY < window.scrollY) {
-      navbar.dataset.hidden = 'true';
+      navbar.dataset.hidden = "true";
     } else {
-      navbar.dataset.hidden = 'false';
+      navbar.dataset.hidden = "false";
     }
     lastScrollY = window.scrollY;
   }
 });
-
 
 // Event listeners for courses
 const numCourses = 5;
@@ -33,9 +32,9 @@ const courses = document.querySelectorAll(".courses");
 
 courses.forEach((course) => {
   course.addEventListener("click", handleClick);
-  course.addEventListener("hover", ()=>{
-    document.getElementById
-  })
+  course.addEventListener("hover", () => {
+    document.getElementById;
+  });
 });
 
 function handleClick(event) {
@@ -65,4 +64,3 @@ function handleReset(event) {
   resetCourse.removeEventListener("click", handleReset);
   resetCourse.addEventListener("click", handleClick);
 }
-
