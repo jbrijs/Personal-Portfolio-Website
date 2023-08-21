@@ -36,12 +36,16 @@ body {
   }
 
   .project-info{
-    height: 100vh;
-    padding: 50px 100px;
+    height: auto;
+    padding: 50px 200px;
   }
 
 #back-arrow{
     font-size: 2em;
     text-decoration: none;
     color: white;
+}
+
+p {
+    text-indent: 28px;
 }
