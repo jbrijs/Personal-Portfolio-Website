@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quote Project Page</title>
-    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="quote.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
       rel="stylesheet"
@@ -21,94 +21,114 @@
     />
   </head>
   <body>
-    <section>
-      <h1>Project Overview: Quote Finder App</h1>
-      <p><strong>Description:</strong></p>
-      <p>
-        The Quote Finder App is a user-friendly and mobile-responsive web
-        application designed to provide users with an easy way to discover and
-        explore quotes from famous personalities. The app utilizes a quote API
-        to fetch and display quotes based on user input. Users have the option
-        to search for quotes by specific authors and even pin their favorite
-        quotes for future reference. The app offers a visually appealing and
-        intuitive interface that enhances the user experience.
-      </p>
+    <nav class="navbar">
+      <a href="/index.html#projects" class="backarrow">
+        <span id="back-arrow" class="material-symbols-outlined">
+          arrow_back
+        </span>
+      </a>
+    </nav>
 
-      <p><strong>Features:</strong></p>
-      <ol>
-        <li>
-          <strong>Random Quote Display:</strong> The app presents users with a
-          random quote on the title page, offering them an engaging and
-          inspirational starting point.
-        </li>
-        <li>
-          <strong>Search Functionality:</strong> Users can search for quotes by
-          entering the name of an author in the search bar. The app performs a
-          query to the quote API and retrieves quotes attributed to the
-          specified author.
-        </li>
-        <li>
-          <strong>Pin and Unpin Quotes:</strong> Users can pin quotes that
-          resonate with them, creating a curated collection of favorite quotes.
-          Pinned quotes are displayed separately for easy access.
-        </li>
-        <li>
-          <strong>Dynamic UI:</strong> The app dynamically updates the user
-          interface based on user interactions. Quotes are displayed in a
-          visually appealing format, making it easy for users to read and engage
-          with the content.
-        </li>
-        <li>
-          <strong>Responsive Design:</strong> The app is designed to be
-          mobile-friendly, ensuring a seamless experience across different
-          devices and screen sizes.
-        </li>
-      </ol>
+    <section class="project-info">
+      <aside class="key-point-aside">
+        <h2 class="project-subheader">Languages</h2>
+        <ul class="languages-list">
+          <li class="languages">JavaScript</li>
+          <li class="languages">CSS</li>
+          <li class="languages">HTML</li>
+        </ul>
+        <h2 class="project-subheader">GitHub Repo</h2>
+        <p class="key-points">www.blahbla.github</p>
+      </aside>
+      <div class="overview">
+        <h1 class="project-title">Quote Finder App</h1>
+        <h2 class="project-subheader">Overview</h2>
+        <p>
+          <strong>Introduction:</strong> Quote Finder App is a user-friendly and mobile-responsive web
+          application designed to provide users with an easy way to discover and
+          explore quotes from famous personalities. The app utilizes a quote API
+          to fetch and display quotes based on user input. Users have the option
+          to search for quotes by specific authors and even pin their favorite
+          quotes for future reference. The app offers a visually appealing and
+          intuitive interface that enhances the user experience.
+        </p>
 
-      <p><strong>Front-End Technologies Used:</strong></p>
-      <ul>
-        <li>
-          <strong>HTML:</strong> The app's structure and layout are defined
-          using HTML, providing the foundation for the user interface.
-        </li>
-        <li>
-          <strong>CSS:</strong> Cascading Style Sheets (CSS) are used to style
-          the app's components, including fonts, colors, and responsive design
-          elements.
-        </li>
-        <li>
-          <strong>JavaScript:</strong> JavaScript is used to implement
-          interactivity and fetch quotes from the API. It also manages pinning
-          and unpinning quotes based on user interactions.
-        </li>
-      </ul>
+        <h2 class="overview-header">Features:</h2>
+        <ul>
+          <li class="list-components">
+            <strong>Random Quote Display:</strong> The app presents users with a
+            random quote on the title page, offering them an engaging and
+            inspirational starting point.
+          </li>
+          <li class="list-components">
+            <strong>Search Functionality:</strong> Users can search for quotes
+            by entering the name of an author in the search bar. The app
+            performs a query to the quote API and retrieves quotes attributed to
+            the specified author.
+          </li>
+          <li class="list-components">
+            <strong>Pin and Unpin Quotes:</strong> Users can pin quotes that
+            resonate with them, creating a curated collection of favorite
+            quotes. Pinned quotes are displayed separately for easy access.
+          </li>
+          <li class="list-components">
+            <strong>Dynamic UI:</strong> The app dynamically updates the user
+            interface based on user interactions. Quotes are displayed in a
+            visually appealing format, making it easy for users to read and
+            engage with the content.
+          </li>
+          <li class="list-components">
+            <strong>Responsive Design:</strong> The app is designed to be
+            mobile-friendly, ensuring a seamless experience across different
+            devices and screen sizes.
+          </li>
+        </ul>
 
-      <p><strong>API Integration:</strong></p>
-      <p>
-        The app seamlessly integrates with a quote API to fetch quotes based on
-        user queries. The API responses are parsed and displayed in a
-        user-friendly manner on the app's interface.
-      </p>
+        <h2 class="overview-header">Front-End Technologies Used:</h2>
+        <ul>
+          <li class="list-components">
+            <strong>HTML:</strong> The app's structure and layout are defined
+            using HTML, providing the foundation for the user interface.
+          </li>
+          <li class="list-components">
+            <strong>CSS:</strong> Cascading Style Sheets (CSS) are used to style
+            the app's components, including fonts, colors, and responsive design
+            elements.
+          </li>
+          <li class="list-components">
+            <strong>JavaScript:</strong> JavaScript is used to implement
+            interactivity and fetch quotes from the API. It also manages pinning
+            and unpinning quotes based on user interactions.
+          </li>
+        </ul>
 
-      <p><strong>User Experience:</strong></p>
-      <p>
-        The Quote Finder App is designed with the user experience in mind. Its
-        intuitive design and interactive features allow users to easily search
-        for, explore, and save their favorite quotes. The app's responsive
-        layout ensures that users can access and use it across various devices,
-        enhancing accessibility.
-      </p>
+        <h2 class="overview-header">API Integration:</h2>
+        <p>
+          The app seamlessly integrates with a quote API to fetch quotes based
+          on user queries. The API responses are parsed and displayed in a
+          user-friendly manner on the app's interface.
+        </p>
 
-      <p><strong>Conclusion:</strong></p>
-      <p>
-        The Quote Finder App is a demonstration of my skills as a software
-        engineer in developing user-friendly web applications that seamlessly
-        integrate with APIs and provide valuable functionalities. Its ability to
-        search for and organize quotes makes it an engaging tool for users who
-        seek inspiration and motivation from famous quotes. The responsive
-        design and interactive features contribute to an enhanced user
-        experience, making it a valuable addition to any portfolio.
-      </p>
+        <h2 class="overview-header">User Experience:</h2>
+        <p>
+          The Quote Finder App is designed with the user experience in mind. Its
+          intuitive design and interactive features allow users to easily search
+          for, explore, and save their favorite quotes. The app's responsive
+          layout ensures that users can access and use it across various
+          devices, enhancing accessibility.
+        </p>
+
+        <h2 class="overview-header">Conclusion:</h2>
+        <p>
+          The Quote Finder App is a demonstration of my skills as a software
+          engineer in developing user-friendly web applications that seamlessly
+          integrate with APIs and provide valuable functionalities. Its ability
+          to search for and organize quotes makes it an engaging tool for users
+          who seek inspiration and motivation from famous quotes. The responsive
+          design and interactive features contribute to an enhanced user
+          experience, making it a valuable addition to any portfolio.
+        </p>
+      </div>
     </section>
   </body>
 </html>
