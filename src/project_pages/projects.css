@@ -15,7 +15,7 @@ body {
   margin: 0px;
   position: relative;
   font-family: var(--inter);
-  color: rgba(0, 0, 0, 0.7);
+  
 }
 
 .navbar {
@@ -36,33 +36,56 @@ body {
 
 .project-info {
   height: auto;
-  padding: 50px 200px;
+  padding: 50px 300px 50px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
 }
 
 #back-arrow {
   font-size: 2em;
-  text-decoration: none;3
+  text-decoration: none;
   color: white;
 }
 
-p {
+.overview-info {
   text-indent: 28px;
+  font-size: 18px;
   
+}
+
+.key-point-aside{
+    padding-top: 128px;
+    width: 40vw;
+    float: left;
 }
 
 .project-title {
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 26px;
 }
 .project-subheader {
   font-weight: 500;
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-color: var(--tertiary);
-  font-size: 22px;
+  font-size: 24px;
   padding: 0px 0px 20px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .overview {
   padding-bottom: 20px;
+}
+
+.languages{
+    list-style: circle;
+    padding-bottom: 10px;
+}
+
+.languages-list{
+    padding-left: 16px;
+    margin: 0px;
 }
