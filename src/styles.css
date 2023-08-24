@@ -400,6 +400,7 @@ a.tab-tags:hover {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  background-color: white;
 }
 
 .flip-card-back {
@@ -456,11 +457,11 @@ a.tab-tags:hover {
 }
 
 #html {
-  background-color: rgba(228, 77, 39, 0.6);
+  background-color: #ED937D;
 }
 
 #javascript {
-  background-color: rgba(239, 219, 79, 0.6);
+  background-color: #F1E596;
 }
 
 #java {
@@ -478,6 +479,14 @@ a.tab-tags:hover {
 #git {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
+}
+
+#typescript {
+  background-color: rgba(48, 119, 198, 0.6);
+}
+
+#react {
+  background-color: rgba(0,216,255, 0.3);
 }
 
 /* Education */
