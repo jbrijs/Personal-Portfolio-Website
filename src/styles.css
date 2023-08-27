@@ -628,7 +628,7 @@ a.tab-tags:hover {
 .project:hover {
   cursor: pointer;
   font-size: 24px;
-  background: linear-gradient(to top right, var(--background), var(--primary));
+  
 }
 
 #projects .header {
