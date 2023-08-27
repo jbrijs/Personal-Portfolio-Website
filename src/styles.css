@@ -1,9 +1,7 @@
 /* General */
 :root {
   --background: #264653;
-  --primary: #9dbebb;
-  --secondary: #77aca2;
-  --accent: #ba3b46;
+  --primary: #C4C4C4;
   --tertiary: #f4a261;
   --nav-bar-height: 75px;
   --nothing-you-could-do: "Nothing You Could Do", cursive;
@@ -66,7 +64,7 @@ a.tab-tags {
 a.tab-tags:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
-  text-decoration-color: var(--accent);
+  text-decoration-color: var(--tertiary);
 }
 
 .signature {
