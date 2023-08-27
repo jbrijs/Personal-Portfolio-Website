@@ -605,8 +605,8 @@ a.tab-tags:hover {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  row-gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 40px;
   padding-bottom: 40px;
 }
 
@@ -617,13 +617,14 @@ a.tab-tags:hover {
   align-items: center;
   color: white;
   background-color: var(--background);
-  width: 400px;
-  height: 350px;
-  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  border-radius: 64px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   transition: background-color 1s ease;
   transition: all 0.3s ease;
   font-size: 22px;
+  text-align: center;
 }
 
 .project:hover {
