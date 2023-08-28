@@ -1,112 +1,156 @@
 :root {
-    --background: #264653;
-    --primary: #9dbebb;
-    --secondary: #77aca2;
-    --accent: #ba3b46;
-    --tertiary: #f4a261;
-    --nav-bar-height: 75px;
-    --nothing-you-could-do: "Nothing You Could Do", cursive;
-    --inter: "Inter", sans-serif;
-  }
-  
-  body {
-    overflow-y: scroll;
-    padding-top: var(--nav-bar-height);
-    margin: 0px;
-    position: relative;
-    font-family: var(--inter);
-  }
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--background);
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
-    width: 100vw;
-    margin: 0px;
-    padding: 0px 0px 0px 20px;
-    display: flex;
-    align-items: center;
-    height: var(--nav-bar-height);
-    transition: transform 0.3s ease;
-    z-index: 6;
-  }
-  
+  --background: #264653;
+  --primary: #9dbebb;
+  --secondary: #77aca2;
+  --accent: #ba3b46;
+  --tertiary: #f4a261;
+  --nav-bar-height: 75px;
+  --nothing-you-could-do: "Nothing You Could Do", cursive;
+  --inter: "Inter", sans-serif;
+}
+
+body {
+  overflow-y: scroll;
+  padding-top: var(--nav-bar-height);
+  margin: 0px;
+  position: relative;
+  font-family: var(--inter);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--background);
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  height: var(--nav-bar-height);
+  transition: transform 0.3s ease;
+  z-index: 6;
+}
+
+.project-info {
+  height: auto;
+  padding: 50px 300px 50px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+#back-arrow {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+}
+
+.key-point-aside {
+  padding-top: 130px;
+  width: 40vw;
+  float: left;
+}
+
+.project-title {
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 26px;
+}
+
+.project-subheader {
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--tertiary);
+  font-size: 24px;
+  padding: 0px 0px 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.languages {
+  list-style: circle;
+  padding-bottom: 10px;
+}
+
+.languages-list {
+  padding-left: 16px;
+  margin: 0px;
+}
+
+strong {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.overview-header {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.components {
+  padding-bottom: 20px;
+  list-style: circle;
+}
+
+code {
+  font-size: 15px;
+}
+
+.tech-subheader {
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--tertiary);
+  font-size: 24px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
   .project-info {
-    height: auto;
-    padding: 50px 300px 50px 100px;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 0px;
   }
-  
-  #back-arrow {
-    font-size: 2em;
-    text-decoration: none;
-    color: white;
-  }
-  
+
   .key-point-aside {
-    padding-top: 130px;
-    width: 40vw;
-    float: left;
+    width: 100%;
+    float: none;
+    padding-top: 0;
   }
-  
+
+  .overview {
+    width: 100%;
+    padding-top: 20px;
+  }
+
   .project-title {
-    font-weight: 500;
-    padding-bottom: 10px;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .project-subheader {
-    font-weight: 500;
-    text-decoration: underline;
-    text-underline-offset: 8px;
-    text-decoration-color: var(--tertiary);
-    font-size: 24px;
-    padding: 0px 0px 20px;
-    color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .languages {
-    list-style: circle;
-    padding-bottom: 10px;
-  }
-  
-  .languages-list {
-    padding-left: 16px;
-    margin: 0px;
-  }
-  
-  strong {
-    color: rgba(0, 0, 0, 0.7);
-    font-weight: 600;
-    font-size: 18px;
-  }
-  
-  .overview-header {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 20px;
-    font-weight: 500;
-  }
-  
-  .components {
-    padding-bottom: 20px;
-    list-style: circle;
-  }
-  
-  code {
-    font-size: 15px;
+    font-size: 22px;
+    padding: 0px 0px 10px;
   }
 
-.tech-subheader{
-    font-weight: 500;
-    text-decoration: underline;
-    text-underline-offset: 8px;
-    text-decoration-color: var(--tertiary);
-    font-size: 24px;
-    
-    color: rgba(0, 0, 0, 0.7);
+  .languages-list {
+    padding-left: 20px;
+  }
+
+  .overview-header {
+    font-size: 18px;
+  }
+
+  strong {
+    font-size: 16px;
+  }
+
+  .list-components {
+    padding-bottom: 15px;
+  }
 }

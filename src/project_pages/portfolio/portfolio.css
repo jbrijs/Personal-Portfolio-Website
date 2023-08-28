@@ -75,16 +75,15 @@ body {
   text-wrap: nowrap;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+a:hover {
   color: purple;
   text-decoration: underline;
 }
-
 
 .languages {
   list-style: circle;
@@ -96,5 +95,44 @@ a:hover{
   margin: 0px;
 }
 
+/* Mobile Styling */
+@media (max-width: 768px) {
+  .project-info {
+    flex-direction: column;
+    padding: 20px; /* Adjust the padding for mobile */
+    gap: 0px;
+  }
 
+  .key-point-aside {
+    padding-top: 30px; /* Adjust the padding for mobile */
+    width: 100%; /* Occupy full width */
+    float: none; /* Remove float */
+  }
 
+  .overview {
+    padding-top: 30px; /* Adjust the padding for mobile */
+  }
+
+  .navbar {
+    padding-left: 10px; /* Adjust the padding for mobile */
+  }
+
+  .project-subheader {
+    font-size: 22px; /* Reduce font size for mobile */
+    padding-bottom: 10px;
+  }
+
+  .project-title {
+    font-size: 22px; /* Reduce font size for mobile */
+  }
+
+  .overview-info {
+    text-indent: 0; /* Remove text-indent for mobile */
+    font-size: 16px; /* Reduce font size for mobile */
+  }
+
+  /* Add some spacing for the GitHub link */
+  .key-points {
+    margin-top: 10px;
+  }
+}

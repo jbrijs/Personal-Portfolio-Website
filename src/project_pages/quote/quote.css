@@ -102,6 +102,50 @@
     list-style: circle;
   }
   
-  
+  /* For screens up to 768px width (typical tablet and mobile landscape) */
+@media (max-width: 768px) {
+  .project-info {
+    padding:20px;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .key-point-aside {
+    width: 100%;
+    float: none;
+    padding-top: 0;
+  }
+
+  .overview {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .project-title {
+    font-size: 24px;
+  }
+
+  .project-subheader {
+    font-size: 22px;
+    padding: 0px 0px 10px;
+  }
+
+  .languages-list {
+    padding-left: 20px;
+  }
+
+  .overview-header {
+    font-size: 18px;
+  }
+
+  strong {
+    font-size: 16px;
+  }
+
+  .list-components {
+    padding-bottom: 15px;
+  }
+}
+
   
   
