@@ -1,7 +1,7 @@
 /* General */
 :root {
   --background: #264653;
-  --primary: #C4C4C4;
+  --primary: #c4c4c4;
   --tertiary: #f4a261;
   --nav-bar-height: 75px;
   --nothing-you-could-do: "Nothing You Could Do", cursive;
@@ -455,11 +455,11 @@ a.tab-tags:hover {
 }
 
 #html {
-  background-color: #ED937D;
+  background-color: #ed937d;
 }
 
 #javascript {
-  background-color: #F1E596;
+  background-color: #f1e596;
 }
 
 #java {
@@ -484,7 +484,7 @@ a.tab-tags:hover {
 }
 
 #react {
-  background-color: rgba(0,216,255, 0.3);
+  background-color: rgba(0, 216, 255, 0.3);
 }
 
 /* Education */
@@ -628,7 +628,6 @@ a.tab-tags:hover {
 .project:hover {
   cursor: pointer;
   font-size: 24px;
-  
 }
 
 #projects .header {
@@ -652,8 +651,7 @@ a.tab-tags:hover {
   gap: 40px;
   align-items: center;
 }
-.read-more,
-.walkthrough {
+.read-more {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -664,9 +662,6 @@ a.tab-tags:hover {
   border: 2px solid white;
   border-radius: 22px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-.read-more {
   width: 130px;
 }
 /* Mobile styles (max-width: 768px) */
