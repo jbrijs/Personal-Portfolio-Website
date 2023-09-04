@@ -371,6 +371,7 @@ a.tab-tags:hover {
   width: 200px;
   height: 200px;
   perspective: 1000px;
+  position: relative;
 }
 
 .flip-card-inner {
@@ -468,6 +469,14 @@ a.tab-tags:hover {
 
 #python {
   background-color: #f8e9b5;
+}
+
+.language-title {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  bottom: 0;
 }
 
 #css {
@@ -595,6 +604,10 @@ a.tab-tags:hover {
 
   .course-description {
     padding-bottom: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .language-title {
+    font-size: 12px;
   }
 }
 
