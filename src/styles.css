@@ -292,15 +292,12 @@ a.tab-tags:hover {
   margin: 0px;
 }
 
-.profile-pic-container {
-  padding-left: 80px;
-}
-
-.profile-pic-container img {
+#profile-pic {
   width: 175px;
   height: auto;
   border-radius: 8px;
 }
+
 
 @media (max-width: 768px) {
   #about {
@@ -474,7 +471,7 @@ a.tab-tags:hover {
 .language-title {
   position: absolute;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   color: black;
   bottom: 0;
 }
