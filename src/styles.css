@@ -318,15 +318,14 @@ a.tab-tags:hover {
   }
 
   /* Additional adjustments for smaller screens */
-  .profile-pic-container img {
-    width: 150px; /* Decrease image size for mobile view */
-  }
-
-  .profile-pic-container {
+  #profile-pic {
+    width: 150px;
     float: right;
     margin: 40px 20px 20px;
-    padding: 0px;
+    padding: 0px; 
   }
+
+
 }
 
 /* Skills Page */
@@ -420,10 +419,14 @@ a.tab-tags:hover {
 }
 
 @media (max-width: 768px) {
+
+  #skills{
+    padding: 40px 60px;
+  }
   .underline-header {
     font-size: 1.25em;
     text-align: center;
-    text-underline-offset: 8px;
+    text-underline-offset: 4px;
   }
   .techs {
     grid-template-columns: repeat(
@@ -572,7 +575,7 @@ a.tab-tags:hover {
   #education-header {
     font-size: 1.25em;
     padding-bottom: 30px;
-    text-underline-offset: 8px;
+    text-underline-offset: 4px;
     text-align: center;
   }
 
@@ -707,6 +710,7 @@ a.tab-tags:hover {
 
   #projects .header {
     text-align: center;
+    text-underline-offset: 4px;
   }
 }
 
