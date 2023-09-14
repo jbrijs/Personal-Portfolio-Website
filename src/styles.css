@@ -1,8 +1,10 @@
 /* General */
 :root {
   --background: #264653;
-  --primary: #c4c4c4;
-  --tertiary: #f4a261;
+  --secondary: #487280;
+  --tertiary: #f9806b;
+  --primary: #d3d1d1; 
+  /* --tertiary: #f4a261;  */
   --nav-bar-height: 75px;
   --nothing-you-could-do: "Nothing You Could Do", cursive;
   --inter: "Inter", sans-serif;
@@ -298,7 +300,6 @@ a.tab-tags:hover {
   border-radius: 8px;
 }
 
-
 @media (max-width: 768px) {
   #about {
     display: block;
@@ -322,10 +323,8 @@ a.tab-tags:hover {
     width: 150px;
     float: right;
     margin: 40px 20px 20px;
-    padding: 0px; 
+    padding: 0px;
   }
-
-
 }
 
 /* Skills Page */
@@ -419,8 +418,7 @@ a.tab-tags:hover {
 }
 
 @media (max-width: 768px) {
-
-  #skills{
+  #skills {
     padding: 40px 60px;
   }
   .underline-header {
@@ -620,7 +618,7 @@ a.tab-tags:hover {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-column-gap: 40px;
   padding-bottom: 40px;
 }
@@ -631,9 +629,9 @@ a.tab-tags:hover {
   justify-content: space-evenly;
   align-items: center;
   color: white;
-  background-color: var(--background);
-  width: 300px;
-  height: 300px;
+  background-color: var(--secondary);
+  width: 400px;
+  height: 250px;
   border-radius: 64px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   transition: background-color 1s ease;
