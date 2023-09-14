@@ -1,9 +1,8 @@
 :root {
   --background: #264653;
-  --primary: #9dbebb;
-  --secondary: #77aca2;
-  --accent: #ba3b46;
-  --tertiary: #f4a261;
+  --secondary: #487280;
+  --tertiary: #f9806b;
+  --primary: #d3d1d1;
   --nav-bar-height: 75px;
   --nothing-you-could-do: "Nothing You Could Do", cursive;
   --inter: "Inter", sans-serif;

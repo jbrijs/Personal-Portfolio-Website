@@ -1,111 +1,109 @@
 :root {
-    --background: #264653;
-    --primary: #9dbebb;
-    --secondary: #77aca2;
-    --accent: #ba3b46;
-    --tertiary: #f4a261;
-    --nav-bar-height: 75px;
-    --nothing-you-could-do: "Nothing You Could Do", cursive;
-    --inter: "Inter", sans-serif;
-  }
-  
-  body {
-    overflow-y: scroll;
-    padding-top: var(--nav-bar-height);
-    margin: 0px;
-    position: relative;
-    font-family: var(--inter);
-  }
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--background);
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
-    width: 100vw;
-    margin: 0px;
-    padding: 0px 0px 0px 20px;
-    display: flex;
-    align-items: center;
-    height: var(--nav-bar-height);
-    transition: transform 0.3s ease;
-    z-index: 6;
-  }
-  
-  .project-info {
-    height: auto;
-    padding: 50px 300px 50px 100px;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-  }
-  
-  #back-arrow {
-    font-size: 2em;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .overview-info {
-    text-indent: 28px;
-    font-size: 18px;
-  }
-  
-  .key-point-aside {
-    padding-top: 128px;
-    width: 40vw;
-    float: left;
-  }
-  
-  .project-title {
-    font-weight: 500;
-    padding-bottom: 10px;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 26px;
-  }
-  .project-subheader {
-    font-weight: 500;
-    text-decoration: underline;
-    text-underline-offset: 8px;
-    text-decoration-color: var(--tertiary);
-    font-size: 24px;
-    padding: 0px 0px 20px;
-    color: rgba(0, 0, 0, 0.7);
-  }
-  
-  
-  .languages {
-    list-style: circle;
-    padding-bottom: 10px;
-  }
-  
-  .languages-list {
-    padding-left: 16px;
-    margin: 0px;
-  }
+  --background: #264653;
+  --secondary: #487280;
+  --tertiary: #f9806b;
+  --primary: #d3d1d1;
+  --nav-bar-height: 75px;
+  --nothing-you-could-do: "Nothing You Could Do", cursive;
+  --inter: "Inter", sans-serif;
+}
 
-  .overview-header {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 20px;
-    font-weight: 500;
-  }
+body {
+  overflow-y: scroll;
+  padding-top: var(--nav-bar-height);
+  margin: 0px;
+  position: relative;
+  font-family: var(--inter);
+}
 
-  strong {
-    color: rgba(0, 0, 0, 0.7);
-    font-weight: 600;
-    font-size: 18px;
-  }
-  
-  .list-components {
-    padding-bottom: 20px;
-    list-style: circle;
-  }
-  
-  /* For screens up to 768px width (typical tablet and mobile landscape) */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--background);
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  height: var(--nav-bar-height);
+  transition: transform 0.3s ease;
+  z-index: 6;
+}
+
+.project-info {
+  height: auto;
+  padding: 50px 300px 50px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+#back-arrow {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+}
+
+.overview-info {
+  text-indent: 28px;
+  font-size: 18px;
+}
+
+.key-point-aside {
+  padding-top: 128px;
+  width: 40vw;
+  float: left;
+}
+
+.project-title {
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 26px;
+}
+.project-subheader {
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--tertiary);
+  font-size: 24px;
+  padding: 0px 0px 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.languages {
+  list-style: circle;
+  padding-bottom: 10px;
+}
+
+.languages-list {
+  padding-left: 16px;
+  margin: 0px;
+}
+
+.overview-header {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+strong {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.list-components {
+  padding-bottom: 20px;
+  list-style: circle;
+}
+
+/* For screens up to 768px width (typical tablet and mobile landscape) */
 @media (max-width: 768px) {
   .project-info {
-    padding:20px;
+    padding: 20px;
     flex-direction: column;
     gap: 0px;
   }
@@ -146,6 +144,3 @@
     padding-bottom: 15px;
   }
 }
-
-  
-  
