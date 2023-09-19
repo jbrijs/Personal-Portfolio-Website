@@ -61,12 +61,14 @@ a.tab-tags {
   text-decoration: none;
   color: white;
   transition: all 0.3s ease;
+  text-decoration-color: var(--tertiary);
 }
 
 a.tab-tags:hover {
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 4px; 
   text-decoration-color: var(--tertiary);
+ 
 }
 
 .signature {
