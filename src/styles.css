@@ -3,7 +3,7 @@
   --background: #264653;
   --secondary: #487280;
   --tertiary: #f9806b;
-  --primary: #d3d1d1; 
+  --primary: #d3d1d1;
   /* --tertiary: #f4a261;  */
   --nav-bar-height: 75px;
   --nothing-you-could-do: "Nothing You Could Do", cursive;
@@ -66,9 +66,8 @@ a.tab-tags {
 
 a.tab-tags:hover {
   text-decoration: underline;
-  text-underline-offset: 4px; 
+  text-underline-offset: 4px;
   text-decoration-color: var(--tertiary);
- 
 }
 
 .signature {
