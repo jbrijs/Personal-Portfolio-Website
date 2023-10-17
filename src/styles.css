@@ -499,9 +499,9 @@ a.tab-tags:hover {
   background-color: #d88ff0;
 }
 
-#django{
-  background-color: #617B71;
-  color: white
+#django {
+  background-color: #617b71;
+  color: white;
 }
 
 /* Education */
@@ -570,6 +570,29 @@ a.tab-tags:hover {
   padding-bottom: 40px;
 }
 
+.honors {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 230px;
+  padding-bottom: 65px;
+}
+
+#award {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 8px 0 0;
+}
+
+#award-year {
+  margin-top: 2px;
+  font-style: italic;
+}
+
+.award-info {
+  padding-bottom: 32px;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .university {
@@ -613,6 +636,19 @@ a.tab-tags:hover {
   .language-title {
     font-size: 12px;
   }
+}
+
+.honors {
+  display: block;
+  text-align: center;
+  gap: 230px;
+  padding-bottom: 65px;
+}
+
+#award {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px 0 0;
 }
 
 /* Projects Page */
