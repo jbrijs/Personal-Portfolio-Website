@@ -499,6 +499,11 @@ a.tab-tags:hover {
   background-color: #d88ff0;
 }
 
+#django{
+  background-color: #617B71;
+  color: white
+}
+
 /* Education */
 #education {
   background-color: whitesmoke;
