@@ -636,14 +636,15 @@ a.tab-tags:hover {
   .language-title {
     font-size: 12px;
   }
+  .honors {
+    display: block;
+    text-align: center;
+    gap: 230px;
+    padding-bottom: 65px;
+  }
+  
 }
 
-.honors {
-  display: block;
-  text-align: center;
-  gap: 230px;
-  padding-bottom: 65px;
-}
 
 #award {
   font-size: 18px;
