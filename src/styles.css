@@ -4,7 +4,7 @@
   --secondary: #487280;
   --tertiary: #f9806b;
   --primary: #d3d1d1;
-  /* --tertiary: #f4a261;  */
+  --project-transition-color: #426976;
   --nav-bar-height: 75px;
   --nothing-you-could-do: "Nothing You Could Do", cursive;
   --inter: "Inter", sans-serif;
@@ -671,19 +671,21 @@ a.tab-tags:hover {
   align-items: center;
   color: white;
   background-color: var(--secondary);
-  width: 400px;
-  height: 250px;
-  border-radius: 64px;
+  width: 300px;
+  height: 200px;
+  border-radius: 16px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   transition: background-color 1s ease;
   transition: all 0.3s ease;
   font-size: 22px;
+  font-weight: 300;
   text-align: center;
+  border:none;
 }
 
 .project:hover {
-  cursor: pointer;
-  font-size: 24px;
+  box-shadow: none;
+  background-color: var(--project-transition-color);
 }
 
 #projects .header {

@@ -64,3 +64,10 @@ function handleReset(event) {
   resetCourse.removeEventListener("click", handleReset);
   resetCourse.addEventListener("click", handleClick);
 }
+
+const projects = ["portfolio", "quote", "fractal"]
+
+projects.forEach( (project) =>
+  document.getElementById(project).addEventListener('click', () => {
+    window.location.href = `src/project_pages/${project}/${project}.html`})
+)
