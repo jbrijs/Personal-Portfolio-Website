@@ -686,6 +686,7 @@ a.tab-tags:hover {
 .project:hover {
   box-shadow: none;
   background-color: var(--project-transition-color);
+  cursor: pointer;
 }
 
 #projects .header {
