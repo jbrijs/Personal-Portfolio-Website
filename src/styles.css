@@ -492,7 +492,9 @@ a.tab-tags:hover {
 }
 
 #react {
-  background-color: #c0ecf9;
+  /* background-color: #c0ecf9; */
+  background-color: #23272F;
+  color: white;
 }
 
 #kotlin {
@@ -501,6 +503,11 @@ a.tab-tags:hover {
 
 #django {
   background-color: #0f3e2e;
+  color: white;
+}
+
+#tailwind {
+  background-color: #10172A;
   color: white;
 }
 
