@@ -4,7 +4,7 @@
   --secondary: #487280;
   --tertiary: #f9806b;
   --primary: #d3d1d1;
-  --project-transition-color: #426976;
+  --project-transition-color: rgb(88, 141, 158);
   --nav-bar-height: 75px;
   --nothing-you-could-do: "Nothing You Could Do", cursive;
   --inter: "Inter", sans-serif;
@@ -683,16 +683,17 @@ a.tab-tags:hover {
   border:none;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  gap: 40px;
 }
 
-.project:hover {
-  box-shadow: none;
-  background-color: var(--project-transition-color);
-  cursor: pointer;
+#portfolio:hover{
+  cursor: unset;
 }
+
 
 #projects .header {
   color: rgba(0, 0, 0, 0.7);
@@ -701,6 +702,34 @@ a.tab-tags:hover {
   text-underline-offset: 12px;
   padding: 0px 0px 40px;
   text-decoration-color: var(--tertiary);
+}
+
+.project-links {
+  height: 32px;
+  padding: 4px 10px;
+  width: auto;
+  border-radius: 8px;
+  background-color: var(--project-transition-color);
+  font-size: 12pt;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.project-links:hover{
+  box-shadow: none;
+}
+
+.project-links-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .more {
