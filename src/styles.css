@@ -681,6 +681,11 @@ a.tab-tags:hover {
   transition: all 0.3s ease;
   font-size: 22px;
   border:none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .project:hover {
