@@ -550,7 +550,7 @@ a.tab-tags:hover {
   gap: 84px;
   position: relative;
   padding-bottom: 80px;
-  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+  
 }
 
 .relevant-cw p {
@@ -663,6 +663,10 @@ a.tab-tags:hover {
   background-color: whitesmoke;
   height: auto;
   padding: 40px 100px;
+}
+
+#academic-projects{
+  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
 }
 
 .projects {
