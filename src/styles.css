@@ -298,7 +298,8 @@ a.tab-tags:hover {
 #profile-pic {
   width: 175px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 4px;
+  border: solid black 1px;
 }
 
 @media (max-width: 768px) {
