@@ -722,10 +722,12 @@ a.tab-tags:hover {
   justify-content: center;
   text-decoration: none;
   box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.2);
+  transition: all ease 250ms;
 }
 
 .project-links:hover{
-  box-shadow: none;
+  background-color: #5f97aa;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.4);
 }
 
 .project-links-container {
