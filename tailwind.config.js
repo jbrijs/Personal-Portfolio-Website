@@ -6,7 +6,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      background: '#111A2C'
+      colors:{
+        background: '#0C111D',
+        lb: '#65AFFF',
+        lgreen: '#7BA387',
+        mgreen: '#649071',
+        greyb: '#6D9CC5',
+        mb: '#355782'
+      }
+      
     },
   },
   plugins: [],

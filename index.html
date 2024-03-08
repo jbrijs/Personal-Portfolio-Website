@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joe Brijs Portfolio</title>
     <link rel="icon" href="docs/assets/favicon.ico">
-    <link rel="stylesheet" href="src/styles.css" />
+    <link href="src/output.css" rel="stylesheet">
     <script src="src/index.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap"
@@ -27,49 +27,46 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
   </head>
-  <body>
+  <body class="bg-background top-14 w-full">
     <nav
-      class="navbar"
+      class="bg-background h-14 flex flex-row justify-between w-full shadow-xl items-center"
       data-hidden="false"
       role="navigation"
       aria-label="Main Navigation"
     >
-      <span class="signature">JB</span>
+      <span class="text-white text-3xl pl-4">JB</span>
       <div class="hamburger-icon">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
       </div>
-      <ul class="links">
+      <ul class="flex flex-row w-2/3 justify-between pr-10">
         <li>
-          <a class="tab-tags" href="#home">Home</a>
+          <a class="text-sky-300" href="#home">Home</a>
         </li>
         <li>
-          <a class="tab-tags" href="#about">About</a>
+          <a class="text-sky-200" href="#about">About</a>
         </li>
         <li>
-          <a class="tab-tags" href="#skills">Skills</a>
+          <a class="text-sky-100" href="#skills">Skills</a>
         </li>
         <li>
-          <a class="tab-tags" href="#projects">Projects</a>
+          <a class="text-green-100" href="#projects">Projects</a>
         </li>
         <li>
-          <a class="tab-tags" href="#education">Education</a>
+          <a class="text-green-200" href="#education">Education</a>
         </li>
         <li>
-          <a class="tab-tags" href="#contact">Contact</a>
+          <a class="text-green-300" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
-    <section class="page" id="home">
-      <h1 class="name">Joe Brijs</h1>
-      <div class="subheader">
-        <p class="info">Computer Science Student</p>
-        <div class="vertical-line"></div>
-        <p class="info">Aspiring Software Engineer</p>
+    <section class="flex flex-col h-screen w-full items-center justify-center text-white" id="home">
+      <p class="text-4xl font-semibold text-center bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block">I'm Joe Brijs, a CS student and aspiring Software Engineer
+      </p>
       </div>
-      <div class="socials">
-        <div class="social-link" id="linked-in">
+      <div class="flex flex-row gap-6 m-8" id="socials">
+        <div class="w-10 h-10" id="linked-in">
           <a
             href="https://www.linkedin.com/in/joe-brijs/"
             target="_blank"
@@ -77,7 +74,7 @@
             ><img src="docs/assets/linked-in-logo.png" alt="linked-in-logo"
           /></a>
         </div>
-        <div class="social-link" id="git-hub">
+        <div class="w-10 h-10" id="git-hub">
           <a
             href="https://github.com/jbrijs"
             target="_blank"
@@ -86,6 +83,7 @@
           /></a>
         </div>
         <a
+          class="bg-white rounded-2xl text-background flex items-center px-4"
           id="resume-download"
           href="docs/Resume.pdf"
           target="_blank"
@@ -97,7 +95,7 @@
         </a>
       </div>
     </section>
-    <section class="page" id="about">
+    <section class="flex flex-row" id="about">
       <img src="docs/assets/headshot.jpg" alt="profile-pic" id="profile-pic" />
       <div class="info-background">
         <h1 class="header" tabindex="0">About me</h1>
@@ -113,7 +111,7 @@
         </p>
       </div>
     </section>
-    <section class="page" id="skills">
+    <section class="flex flex-row" id="skills">
       <h1 class="underline-header" tabindex="0">Languages and Technologies</h1>
       <div class="techs">
         <div class="flip-card" tabindex="0">
@@ -305,7 +303,7 @@
         </div>
       </div>
     </section>
-    <section class="page" id="projects">
+    <section class="flex flex-row" id="projects">
       <h1 class="header" tabindex="0">Personal Projects</h1>
       <div class="projects">
         <div class="project" id="swole-ai" tabindex="0">
@@ -354,7 +352,7 @@
         </div>
       </div>
     </section>
-    <section class="page" id="education">
+    <section class="flex flex-row" id="education">
       <div class="university">
         <h1 class="underline-header" id="education-header" tabindex="0">
           Education
@@ -458,7 +456,7 @@
         </div>
       </div>
     </section>
-    <section class="page" id="contact">
+    <section class="flex flex-col justify-center items-center" id="contact">
       <div class="contact">
         <p class="email" id="reach">Reach out to me:</p>
         <a class="email" tabindex="0" href="mailto:joebrijs@gmail.com">joebrijs@gmail.com</a>
