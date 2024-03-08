@@ -1,4 +1,7 @@
-/* General */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --background: #264653;
   --secondary: #487280;
