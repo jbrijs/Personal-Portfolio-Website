@@ -1,4 +1,4 @@
-const navbar = document.querySelector(".navbar");
+const navbar = document.querySelector("#navbar");
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 const links = document.querySelector(".links");
 
