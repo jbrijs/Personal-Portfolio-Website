@@ -64,5 +64,3 @@ function handleReset(event) {
   resetCourse.removeEventListener("click", handleReset);
   resetCourse.addEventListener("click", handleClick);
 }
-
-

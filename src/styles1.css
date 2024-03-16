@@ -497,7 +497,7 @@ a.tab-tags:hover {
 
 #react {
   /* background-color: #c0ecf9; */
-  background-color: #23272F;
+  background-color: #23272f;
   color: white;
 }
 
@@ -511,7 +511,7 @@ a.tab-tags:hover {
 }
 
 #tailwind {
-  background-color: #10172A;
+  background-color: #10172a;
   color: white;
 }
 
@@ -553,7 +553,6 @@ a.tab-tags:hover {
   gap: 84px;
   position: relative;
   padding-bottom: 80px;
-  
 }
 
 .relevant-cw p {
@@ -668,7 +667,7 @@ a.tab-tags:hover {
   padding: 40px 100px;
 }
 
-#academic-projects{
+#academic-projects {
   border-bottom: solid 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -688,7 +687,7 @@ a.tab-tags:hover {
   border-radius: 8px;
   transition: all 0.3s ease;
   font-size: 22px;
-  border:none;
+  border: none;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -698,10 +697,9 @@ a.tab-tags:hover {
   gap: 40px;
 }
 
-#portfolio:hover{
+#portfolio:hover {
   cursor: unset;
 }
-
 
 #projects .header {
   color: rgba(0, 0, 0, 0.7);
@@ -729,7 +727,7 @@ a.tab-tags:hover {
   transition: all ease 250ms;
 }
 
-.project-links:hover{
+.project-links:hover {
   background-color: #5f97aa;
   box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.4);
 }
