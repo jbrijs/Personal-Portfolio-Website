@@ -75,7 +75,7 @@
     <section class="h-auto w-full px-24" id="projects">
       <h1 class="text-green-200 text-7xl bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block pb-2">Projects</h1>
       <div class="pt-10 flex flex-wrap justify-start mx-auto gap-y-6 gap-x-6 xl:gap-x-10 2xl:gap-x-14" style="max-width: max-content;">
-        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10" id="ai-project">
+        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative" id="ai-project">
           <h2 class="text-sky-200 text-4xl">AI Workout Plan Web App</h3>
           <h3 class="pt-3 text-green-200 text-2xl font-semibold">Overview</h3>
           <p class="text-slate-300 pt-3">This web application enables users to input personal information to receive customized workout plans.
@@ -88,7 +88,7 @@
             <i class="devicon-django-plain text-green-500 " style="font-size: xxx-large;"></i>
             <i class="devicon-tailwindcss-original colored" style="font-size: xxx-large;"></i>
           </div>
-          <a class="text-white flex items-center justify-center text-xl h-12 bg-background w-full rounded-lg" href="https://github.com/jbrijs/swole-ai" target="_blank">
+          <a class="text-white flex items-center justify-center text-xl h-12 bg-background w-72 rounded-lg absolute bottom-6 left-12" href="https://github.com/jbrijs/swole-ai" target="_blank">
             <i class="devicon-github-original text-3xl text-white pl-4 pr-2"></i>
             <span class="pr-2">GitHub Repo</span>
             <span class="material-symbols-outlined" 
@@ -99,20 +99,23 @@
               </span>
           </a>
         </div>
-        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10" id="ai-project">
+        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative" id="habit-project">
           <h2 class="text-sky-200 text-4xl">Habit Tracker Android App</h3>
           <h3 class="pt-3 text-green-200 text-2xl font-semibold">Overview</h3>
-          <p class="text-slate-300 pt-3">This web application enables users to input personal information to receive customized workout plans.
-             Users can track and store their workout progress directly within the app.
-              The project utilizes React.js for the frontend, is styled with TailwindCSS, uses Django for the backend,
-               and integrates the OpenAI API to dynamically generate personalized workout recommendations.</p>
-          <h4 class="py-4 font-semibold text-2xl text-green-200">Technologies:</h4>
-          <div class="flex items-center gap-4 pb-10">
+          <p class="text-slate-300 pt-3">The Habit Tracker Android App, built with <span class="text-sky-400 font-bold">Kotlin</span> and <span class="text-sky-400 font-bold">Jetpack Compose</span>,
+             enables users to track 'do' and 'don't' habits seamlessly.
+              Featuring intuitive gestures, smooth transitions, and engaging animations,
+               this app offers a robust mobile experience.
+                Habits are saved persistently across sessions through <span class="text-sky-400 font-bold">Firebase</span> integration.
+                 Additionally, the implementation of Google Ads enhances the app's realism and functionality.</p>
+          <h4 class="pb-2 pt-4 font-semibold text-2xl text-green-200">Technologies:</h4>
+          <div class="flex items-center gap-4 pb-12">
             <i class="devicon-kotlin-plain colored " style="font-size: xxx-large;"></i>
-            <i class="devicon-androidstudio-plain text-green-500 " style="font-size: xxx-large;"></i>
             <i class="devicon-jetpackcompose-plain-wordmark colored" style="font-size: xxx-large;"></i>
+            <i class="devicon-firebase-plain colored" style="font-size: xxx-large;"></i>
+            <i class="devicon-androidstudio-plain text-green-500 " style="font-size: xxx-large;"></i>
           </div>
-          <a class="text-white flex items-center justify-center text-xl h-12 bg-background w-full rounded-lg" href="https://github.com/jbrijs/swole-ai" target="_blank">
+          <a class="text-white flex items-center justify-center text-xl h-12 bg-background w-72 rounded-lg absolute bottom-6 left-12" href="https://github.com/jbrijs/swole-ai" target="_blank">
             <i class="devicon-github-original text-3xl text-white pl-4 pr-2"></i>
             <span class="pr-2">GitHub Repo</span>
             <span class="material-symbols-outlined" 
@@ -123,20 +126,21 @@
               </span>
           </a>
         </div>
-        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10" id="android-app-project">
+        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative" id="typing-project">
           <h2 class="text-sky-200 text-4xl">Typing Tutor Game</h3>
           <h3 class="pt-3 text-green-200 text-2xl font-semibold">Overview</h3>
-          <p class="text-slate-300 pt-3">This web application enables users to input personal information to receive customized workout plans.
-             Users can track and store their  orkout progress directly within the app.
-              The project utilizes React.js for the frontend, is styled with TailwindCSS, uses Django for the backend,
-               and integrates the OpenAI API to dynamically generate personalized workout recommendations.</p>
+          <p class="text-slate-300 pt-3">The Typing Tutor Game is an interactive, front-end-only typing game built using <span class="text-sky-400 font-bold">React.js</span> with <span class="text-sky-400 font-bold">TypeScript</span>.
+             The game enhances user engagement through reactive colors and animations that indicate
+              which key to press and confirm the key pressed, helping users to memorize key positions. Additionally,
+               a cursor and prompt animation visually track and highlight the user's progress throughout the game.
+                This game is intuitive and visually appealing.</p>
           <h4 class="py-4 font-semibold text-2xl text-green-200">Technologies:</h4>
-          <div class="flex items-center gap-4 pb-10">
+          <div class="flex items-center gap-4 pb-12">
             <i class="devicon-react-original colored " style="font-size: xxx-large;"></i>
             <i class="devicon-typescript-plain colored" style="font-size: xxx-large;"></i>
             <i class="devicon-tailwindcss-original colored" style="font-size: xxx-large;"></i>
           </div>
-          <a class="text-white flex items-center justify-center text-xl h-12 bg-background w-full rounded-lg" href="https://github.com/jbrijs/swole-ai" target="_blank">
+          <a class="text-white flex items-center justify-center text-xl h-12 bg-background w-72 rounded-lg absolute bottom-6 left-12" href="https://github.com/jbrijs/swole-ai" target="_blank">
             <i class="devicon-github-original text-3xl text-white pl-4 pr-2"></i>
             <span class="pr-2">GitHub Repo</span>
             <span class="material-symbols-outlined" 
