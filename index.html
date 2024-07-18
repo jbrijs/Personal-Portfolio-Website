@@ -29,10 +29,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   </head>
   <body class="bg-background top-14 w-full">
     <nav
-      class="bg-background h-14 flex flex-row justify-between w-full shadow-xl items-center fixed"
+      class="bg-background h-14 flex flex-row justify-between w-full shadow-xl items-center fixed z-10"
       id="navbar"
       data-hidden="false"
       role="navigation"
@@ -80,10 +81,10 @@
         </div>
       </div>
     </section>
-    <section class="h-auto w-full px-24 pb-20" id="projects">
-      <h1 class="text-green-200 text-7xl bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block pb-20">Projects</h1>
-      <div class="pt-10 flex flex-wrap justify-start mx-auto gap-y-6 gap-x-6 xl:gap-x-10 2xl:gap-x-14" style="max-width: max-content;">
-        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative" id="ai-project">
+    <section class="h-auto w-full px-24 pb-20 bg-gray-700" id="projects">
+      <h1 class="text-green-200 text-7xl bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block py-10">Projects</h1>
+      <div class="flex flex-wrap justify-start mx-auto gap-y-6 gap-x-6 xl:gap-x-10 2xl:gap-x-14" style="max-width: max-content;">
+        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative z-1 shadow-2xl" id="ai-project">
           <h2 class="text-sky-200 text-4xl">AI Workout Plan Web App</h3>
           <h3 class="pt-3 text-green-200 text-2xl font-semibold">Overview</h3>
           <p class="text-slate-300 pt-3">This web application enables users to input personal information to receive customized workout plans.
@@ -107,7 +108,7 @@
               </span>
           </a>
         </div>
-        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative" id="habit-project">
+        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative z-1 shadow-2xl" id="habit-project">
           <h2 class="text-sky-200 text-4xl">Habit Tracker Android App</h3>
           <h3 class="pt-3 text-green-200 text-2xl font-semibold">Overview</h3>
           <p class="text-slate-300 pt-3">The Habit Tracker Android App, built with <span class="text-sky-400 font-bold">Kotlin</span> and <span class="text-sky-400 font-bold">Jetpack Compose</span>,
@@ -134,7 +135,7 @@
               </span>
           </a>
         </div>
-        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative" id="typing-project">
+        <div class="bg-gray-800 h-auto w-96 rounded-xl p-10 relative z-1 shadow-2xl" id="typing-project">
           <h2 class="text-sky-200 text-4xl">Typing Tutor Game</h3>
           <h3 class="pt-3 text-green-200 text-2xl font-semibold">Overview</h3>
           <p class="text-slate-300 pt-3">The Typing Tutor Game is an interactive, front-end-only typing game built using <span class="text-sky-400 font-bold">React.js</span> with <span class="text-sky-400 font-bold">TypeScript</span>.
@@ -159,6 +160,32 @@
               </span>
           </a>
         </div>
+      </div>
+    </section>
+    <section class="h-screen bg-background px-24">
+      <h1 class="text-green-200 text-6xl bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block py-10">Professional Experience</h1>
+      <div class="flex flex-col gap-10" id="experiences">
+        <div class="w-full flex flex-row flex-end">
+          <div class="bg-gray-700 flex flex-col p-4 rounded-lg w-96" id="elektrik">
+            <span><p class="text-3xl font-semibold text-white">Elektrik</p></span>
+            <p class="text-xl leading-5 text-slate-300">Software Engineer</p>
+            <p class="pt-2 text-slate-200">May 2024 - Present</p>
+            <div class="w-full flex items-center justify-center pt-6">
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-300 flex flex-col p-4 rounded-lg w-96" id="ino">
+          <span><p class="text-3xl font-semibold">In-N-Out</p></span>
+          <p class="text-xl leading-5 text-gray-600">Associate & Clean-up Crew</p>
+          <p class="pt-2 text-gray-500">Jun 2022 - May 2024</p>
+          <div class="w-full flex items-center justify-center pt-6">
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+            </span>
+          </div>
       </div>
     </section>
     <section class="px-24 pt-20 h-96 bg-gray-800 flex flex-col items-center" id="contact">
