@@ -30,6 +30,9 @@
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
   </head>
   <body class="bg-background top-14 w-full">
     <nav
@@ -62,7 +65,7 @@
         <div class="pl-12 sm:pl-16 md:pl-24 flex-col w-2/3">
           <p class="max-w-prose pb-4  text-4xl sm:text-7xl md:text-8xl lg:text-9xl w-full font-semibold flex-start bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block">Joe Brijs
           </p>
-          <p class="text-lg sm:text-3xl md:text-4xl font-normal flex start text-left bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block">Software Engineer and CS Student
+          <p class="text-lg sm:text-3xl md:text-4xl font-normal start text-left bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block">Software Engineer and CS Student
           </p>
           <p class="max-w-prose min-w-84 sm:min-w-96 pt-2 pb-4 text-md sm:text-xl md:text-2xl font-light">
             Student Developer who builds full stack applications. Fitness junkie, powerlifter, marathon runner, snowboarding enthusiast.
@@ -90,12 +93,12 @@
             <h3 class="pt-3 text-green-200 text-xl font-semibold">Overview</h3>
             <p class="text-slate-300 text-lg pt-3">This project involved developing a system to predict stock prices using deep learning
                and cloud services. It collects historical stock price data, engineers key financial indicators, and stores the processed
-                data in Amazon S3 for easy access. LSTM neural networks are trained to forecast next-day stock prices for leading tech
-                 companies, providing timely insights. The pipeline includes AWS Lambda functions that automatically fetch new data
-                  and trigger predictions after market hours, managed by AWS EventBridge Cron jobs for consistent updates. Predictions
-                   are accessible via API endpoints hosted on AWS Lambda and managed through API Gateway, enabling real-time comparisons
-                    with actual prices. The frontend is a dynamic React web app displaying stock predictions and performance metrics,
-                     hosted on AWS S3, distributed via CloudFront, and utilizing Route 53 for DNS management.
+                data in <span class="text-sky-400 font-bold">Amazon S3</span> for easy access. I trained LSTM neural networks using <span class="text-sky-400 font-bold">PyTorch</span> to forecast next-day stock prices for leading tech
+                 companies, providing timely insights. The pipeline includes <span class="text-sky-400 font-bold">AWS Lambda</span> functions that automatically fetch new data
+                  and trigger predictions after market hours, managed by <span class="text-sky-400 font-bold">AWS EventBridge</span> Cron jobs for consistent updates. Predictions
+                   are accessible via API endpoints hosted on AWS Lambda and managed through <span class="text-sky-400 font-bold">API Gateway</span>, enabling real-time comparisons
+                    with actual prices. The frontend is a dynamic <span class="text-sky-400 font-bold">React</span> web app displaying stock predictions and performance metrics,
+                     hosted on AWS S3, distributed via <span class="text-sky-400 font-bold">CloudFront</span>, and utilizing <span class="text-sky-400 font-bold">Route 53</span> for DNS management.
             </p>
             
           </div>
@@ -103,9 +106,9 @@
             <div class="w-full flex flex-col items-start justify-start">
               <h4 class="py-4 font-semibold text-2xl text-green-200">Technologies:</h4>
               <div class="flex items-center gap-4 pb-10">
+                <i class="devicon-amazonwebservices-plain-wordmark colored" style="font-size: xxx-large"></i>
+                <i class="devicon-pytorch-original colored" style="font-size: xxx-large;"></i>
                 <i class="devicon-react-original colored " style="font-size: xxx-large;"></i>
-                <i class="devicon-django-plain text-green-500 " style="font-size: xxx-large;"></i>
-                <i class="devicon-tailwindcss-original colored" style="font-size: xxx-large;"></i>
               </div>
             </div>
             <a class="text-white flex items-center justify-center text-xl h-16 bg-background w-full rounded-lg" href="https://github.com/jbrijs/swole-ai" target="_blank">
