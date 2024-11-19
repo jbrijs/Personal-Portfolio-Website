@@ -44,21 +44,24 @@
       role="navigation"
       aria-label="Main Navigation"
     >
-      <span class="text-green-300 text-3xl pl-4">JB</span>
+      <span class="hidden sm:block text-green-300 text-3xl pl-4">JB</span>
       <div class="hamburger-icon">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
       </div>
-      <ul class="flex flex-row w-2/3 justify-end gap-10 pr-6">
+      <ul class="flex flex-row w-full sm:w-2/3 justify-around sm:justify-end  sm:gap-10 pr-6">
         <li>
-          <a class="text-sky-200 text-xl font-light" href="#home">Home</a>
+          <a class="text-sky-300 text-xl font-light" href="#home">Home</a>
         </li>
         <li>
           <a class="text-sky-200 text-xl font-light" href="#projects">Projects</a>
         </li>
         <li>
-          <a class="text-sky-200 text-xl font-light" href="#contact">Contact</a>
+          <a class="text-green-200 text-xl font-light" href="#experience">Experience</a>
+        </li>
+        <li>
+          <a class="text-green-300 text-xl font-light" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -223,7 +226,7 @@
           </div>
         </div>
     </section>
-    <section class="h-auto bg-background px-4 md:px-24 mb-20">
+    <section class="h-auto bg-background px-4 md:px-24 mb-20" id="experience">
       <h1 class="text-green-200 text-4xl md:text-6xl bg-gradient-to-r from-sky-300 to-green-300 text-transparent bg-clip-text inline-block py-10">Professional Experience</h1>
       <div class="flex flex-col gap-4" id="experiences">
         <div class="w-full flex flex-row justify-start">
